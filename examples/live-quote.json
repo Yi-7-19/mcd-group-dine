@@ -1,0 +1,57 @@
+{
+  "members": [
+    {
+      "id": "a",
+      "name": "同学甲",
+      "budgetCents": 5000
+    },
+    {
+      "id": "b",
+      "name": "同学乙",
+      "budgetCents": 5000
+    },
+    {
+      "id": "c",
+      "name": "同学丙",
+      "budgetCents": 5000
+    }
+  ],
+  "feePolicy": "equal",
+  "quote": {
+    "mode": "mcp",
+    "sourceTool": "calculate-price",
+    "storeId": "1450713",
+    "fulfillment": "pickup",
+    "quotedAt": "2026-10-23T12:45:31+08:00",
+    "evidenceRef": "docs/live-validation.md",
+    "items": [
+      {
+        "id": "1406",
+        "name": "板烧鸡腿堡",
+        "subtotalCents": 2350,
+        "shares": {
+          "a": 1
+        }
+      },
+      {
+        "id": "1100",
+        "name": "巨无霸",
+        "subtotalCents": 2550,
+        "shares": {
+          "b": 1
+        }
+      },
+      {
+        "id": "1600",
+        "name": "麦香鱼",
+        "subtotalCents": 2250,
+        "shares": {
+          "c": 1
+        }
+      }
+    ],
+    "basketDiscountCents": 0,
+    "feeCents": 0,
+    "payableCents": 7150
+  }
+}

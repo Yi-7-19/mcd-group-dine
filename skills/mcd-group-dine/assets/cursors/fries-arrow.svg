@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="34" viewBox="0 0 32 34">
+  <defs>
+    <linearGradient id="carton" x1="5" y1="7" x2="24" y2="30" gradientUnits="userSpaceOnUse"><stop stop-color="#f13c3c"/><stop offset="1" stop-color="#ba1025"/></linearGradient>
+    <linearGradient id="gold" x1="7" y1="6" x2="20" y2="19" gradientUnits="userSpaceOnUse"><stop stop-color="#ffe18a"/><stop offset="1" stop-color="#ffbc0d"/></linearGradient>
+    <clipPath id="inside"><path d="M2 2 29 17 19 19 23 28 17 31 12 22 5 28Z"/></clipPath>
+  </defs>
+  <path d="M2 2 29 17 19 19 23 28 17 31 12 22 5 28Z" fill="#fffdf8" stroke="#fffdf8" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M2 2 29 17 19 19 23 28 17 31 12 22 5 28Z" fill="url(#carton)" stroke="#7c1621" stroke-width="1" stroke-linejoin="round"/>
+  <g clip-path="url(#inside)">
+    <path d="m5.5 7.5 2-1.3L13 16.7l-2 1.3Z" fill="url(#gold)"/>
+    <path d="m10.5 9 2-1L18 18.5l-2 1Z" fill="url(#gold)"/>
+    <path d="m16 11.5 2-1 5.5 10.5-2 1Z" fill="url(#gold)"/>
+    <path d="M5.9 16.7c4.9-4.1 10.4-4.2 16.5 1.2l-4 .7 3.5 9-4.4 2.1-5.2-9.8-6.1 6Z" fill="url(#carton)"/>
+    <path data-mark="double-arch" d="M7.4 21.5C6.5 16.3 9.6 14.7 11.3 20.5C10.8 15.1 13.9 14.4 15.8 19.8" fill="none" stroke="#ffda63" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
+

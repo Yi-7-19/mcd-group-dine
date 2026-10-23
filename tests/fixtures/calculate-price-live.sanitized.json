@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "code": 200,
+  "message": "请求成功",
+  "datetime": "2026-10-23 12:45:31",
+  "data": {
+    "productOriginalPrice": 7150,
+    "productPrice": 7150,
+    "originalPrice": 7150,
+    "discount": 0,
+    "price": 7150,
+    "productList": [
+      {"productCode": "1406", "productName": "板烧鸡腿堡", "quantity": 1, "originalSubtotal": 2350, "subtotal": 2350},
+      {"productCode": "1100", "productName": "巨无霸", "quantity": 1, "originalSubtotal": 2550, "subtotal": 2550},
+      {"productCode": "1600", "productName": "麦香鱼", "quantity": 1, "originalSubtotal": 2250, "subtotal": 2250}
+    ],
+    "takeWayList": [
+      {"code": "eat-in", "title": "堂食", "subtitle": "店内用餐"},
+      {"code": "locker-out", "title": "外带", "subtitle": "店外取餐柜"}
+    ]
+  }
+}

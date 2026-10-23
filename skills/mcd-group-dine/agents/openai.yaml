@@ -1,0 +1,4 @@
+interface:
+  display_name: "麦麦同桌"
+  short_description: "连接麦当劳 MCP，按每个人的预算组织多人点餐，生成精确到分的拼单账单"
+  default_prompt: "使用 $mcd-group-dine 帮我们三个人按各自预算核对餐品和官方报价，生成拼单分账清单。"

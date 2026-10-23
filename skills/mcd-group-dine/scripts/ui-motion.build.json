@@ -1,0 +1,20 @@
+{
+  "remotion": "4.0.534",
+  "bytes": 31699,
+  "sha256": "919f38f457ac5cb628984973c653d3de9a16a98962b4b6c34b5b2aa02248c3df",
+  "source": "motion/page-motion.mjs",
+  "sourceSha256": "39568b89d2aa64ca67b8c59447b8eb8e2bf5dfb0424c86cabf35ec01249386a5",
+  "helpers": [
+    "node_modules/remotion/dist/cjs/bezier.js",
+    "node_modules/remotion/dist/cjs/validate-frame.js",
+    "node_modules/remotion/dist/cjs/validation/validate-fps.js",
+    "node_modules/remotion/dist/cjs/validation/validation-spring-duration.js",
+    "node_modules/remotion/dist/cjs/spring/spring-utils.js",
+    "node_modules/remotion/dist/cjs/spring/measure-spring.js",
+    "node_modules/remotion/dist/cjs/spring/index.js",
+    "node_modules/remotion/dist/cjs/easing.js",
+    "node_modules/remotion/dist/cjs/normalize-number.js",
+    "node_modules/remotion/dist/cjs/interpolate.js"
+  ],
+  "runtimeReact": false
+}

@@ -1,0 +1,399 @@
+{
+  "results": [
+    {
+      "check": "both source cursors are exactly 32 × 34",
+      "passed": true
+    },
+    {
+      "check": "double-arch M mark is integrated in gold on red and deep red on gold",
+      "passed": true
+    },
+    {
+      "check": "both states retain three fries and exactly the same arrow silhouette",
+      "passed": true
+    },
+    {
+      "check": "default SVG and hotspot (2,2) survive CSS parsing",
+      "passed": true
+    },
+    {
+      "check": "clickable SVG has distinct artwork and identical hotspot",
+      "passed": true
+    },
+    {
+      "check": "text, disabled, and busy preserve native cursor semantics",
+      "passed": true
+    },
+    {
+      "check": "grid cell 1 left edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 1,
+        "x": 108,
+        "y": 697,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 1 right edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 1,
+        "x": 150,
+        "y": 697,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 2 left edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 2,
+        "x": 152,
+        "y": 697,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 2 right edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 2,
+        "x": 194,
+        "y": 697,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 3 left edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 3,
+        "x": 196,
+        "y": 697,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 3 right edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 3,
+        "x": 238,
+        "y": 697,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 4 left edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 4,
+        "x": 240,
+        "y": 697,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 4 right edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 4,
+        "x": 282,
+        "y": 697,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 5 left edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 5,
+        "x": 284,
+        "y": 697,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 5 right edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 5,
+        "x": 326,
+        "y": 697,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 6 left edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 6,
+        "x": 328,
+        "y": 697,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 6 right edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 6,
+        "x": 370,
+        "y": 697,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 7 left edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 7,
+        "x": 108,
+        "y": 741,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 7 right edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 7,
+        "x": 150,
+        "y": 741,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 8 left edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 8,
+        "x": 152,
+        "y": 741,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 8 right edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 8,
+        "x": 194,
+        "y": 741,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 9 left edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 9,
+        "x": 196,
+        "y": 741,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 9 right edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 9,
+        "x": 238,
+        "y": 741,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 10 left edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 10,
+        "x": 240,
+        "y": 741,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 10 right edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 10,
+        "x": 282,
+        "y": 741,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 11 left edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 11,
+        "x": 284,
+        "y": 741,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 11 right edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 11,
+        "x": 326,
+        "y": 741,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 12 left edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 12,
+        "x": 328,
+        "y": 741,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 12 right edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 12,
+        "x": 370,
+        "y": 741,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 13 left edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 13,
+        "x": 108,
+        "y": 785,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 13 right edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 13,
+        "x": 150,
+        "y": 785,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 14 left edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 14,
+        "x": 152,
+        "y": 785,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 14 right edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 14,
+        "x": 194,
+        "y": 785,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 15 left edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 15,
+        "x": 196,
+        "y": 785,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 15 right edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 15,
+        "x": 238,
+        "y": 785,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 16 left edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 16,
+        "x": 240,
+        "y": 785,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 16 right edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 16,
+        "x": 282,
+        "y": 785,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 17 left edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 17,
+        "x": 284,
+        "y": 785,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 17 right edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 17,
+        "x": 326,
+        "y": 785,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 18 left edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 18,
+        "x": 328,
+        "y": 785,
+        "inside": true
+      }
+    },
+    {
+      "check": "grid cell 18 right edge receives exact native coordinates",
+      "passed": true,
+      "detail": {
+        "cell": 18,
+        "x": 370,
+        "y": 785,
+        "inside": true
+      }
+    },
+    {
+      "check": "forced colors restores native cursors",
+      "passed": true
+    },
+    {
+      "check": "coarse touch pointer does not enable the custom cursor",
+      "passed": true
+    }
+  ],
+  "passed": 44,
+  "total": 44,
+  "limits": "Headless screenshots do not capture the OS cursor. The enlarged inline SVG proves artwork; browser CSS and dispatched native coordinates prove declared hotspot and routing, not a physical mouse/Safari test."
+}

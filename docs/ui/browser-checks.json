@@ -1,0 +1,502 @@
+{
+  "summary": {
+    "total": 62,
+    "passed": 62,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "check": "Remotion 实际驱动首屏渐入，600ms 内结束",
+      "passed": true,
+      "detail": {
+        "engine": "remotion-4.0.534",
+        "samples": [
+          {
+            "delay": 0,
+            "opacity": 0,
+            "transform": "matrix(1, 0, 0, 1, 0, 14)"
+          },
+          {
+            "delay": 100,
+            "opacity": 0.687777,
+            "transform": "matrix(1, 0, 0, 1, 0, 4.37112)"
+          },
+          {
+            "delay": 600,
+            "opacity": 1,
+            "transform": "none"
+          }
+        ],
+        "raf": 33
+      }
+    },
+    {
+      "check": "动效结束后没有持续动画帧循环",
+      "passed": true
+    },
+    {
+      "check": "Remotion 按钮悬停产生克制上移",
+      "passed": true
+    },
+    {
+      "check": "Remotion 按下反馈缩小按钮",
+      "passed": true
+    },
+    {
+      "check": "切换减少动态效果立即停止正在执行的 Remotion 反馈",
+      "passed": true
+    },
+    {
+      "check": "减少动态效果模式首次打开也直接显示完整内容",
+      "passed": true
+    },
+    {
+      "check": "无页面横向溢出 320",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "四张图片可读且有 alt 与尺寸 320",
+      "passed": true
+    },
+    {
+      "check": "点击区域至少 44px 320",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "无页面横向溢出 375",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "四张图片可读且有 alt 与尺寸 375",
+      "passed": true
+    },
+    {
+      "check": "点击区域至少 44px 375",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "无页面横向溢出 768",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "四张图片可读且有 alt 与尺寸 768",
+      "passed": true
+    },
+    {
+      "check": "点击区域至少 44px 768",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "无页面横向溢出 1024",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "四张图片可读且有 alt 与尺寸 1024",
+      "passed": true
+    },
+    {
+      "check": "点击区域至少 44px 1024",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "无页面横向溢出 1440",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "四张图片可读且有 alt 与尺寸 1440",
+      "passed": true
+    },
+    {
+      "check": "点击区域至少 44px 1440",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "手机整单优惠与费用明细默认折叠，保留总额",
+      "passed": true
+    },
+    {
+      "check": "手机优惠与费用明细可用 Enter 展开，完整呈现四项金额",
+      "passed": true,
+      "detail": {
+        "open": true,
+        "rows": [
+          {
+            "label": "餐品小计",
+            "value": "¥71.50",
+            "visible": true,
+            "size": 14
+          },
+          {
+            "label": "整单优惠",
+            "value": "¥0.00",
+            "visible": true,
+            "size": 14
+          },
+          {
+            "label": "附加费用",
+            "value": "¥0.00",
+            "visible": true,
+            "size": 14
+          },
+          {
+            "label": "合计应付",
+            "value": "¥71.50",
+            "visible": true,
+            "size": 14
+          }
+        ]
+      }
+    },
+    {
+      "check": "手机金额明细字号至少 14px",
+      "passed": true,
+      "detail": [
+        {
+          "label": "餐品小计",
+          "value": "¥71.50",
+          "visible": true,
+          "size": 14
+        },
+        {
+          "label": "整单优惠",
+          "value": "¥0.00",
+          "visible": true,
+          "size": 14
+        },
+        {
+          "label": "附加费用",
+          "value": "¥0.00",
+          "visible": true,
+          "size": 14
+        },
+        {
+          "label": "合计应付",
+          "value": "¥71.50",
+          "visible": true,
+          "size": 14
+        }
+      ]
+    },
+    {
+      "check": "手机个人卡姓名与应付并排，三项分摊金额同排，减少纵向堆叠",
+      "passed": true,
+      "detail": {
+        "name": {
+          "x": 35,
+          "y": 258.640625,
+          "bottom": 296.640625
+        },
+        "pay": {
+          "x": 193.5,
+          "y": 258.640625,
+          "bottom": 321.625
+        },
+        "rows": [
+          395.421875,
+          395.421875,
+          395.421875
+        ],
+        "cardHeights": [
+          264.96875,
+          264.96875,
+          264.96875
+        ],
+        "secondBottom": 783.578125,
+        "viewport": 900
+      }
+    },
+    {
+      "check": "手机跳到分账清单后同屏可读两位成员卡片",
+      "passed": true,
+      "detail": {
+        "name": {
+          "x": 35,
+          "y": 258.640625,
+          "bottom": 296.640625
+        },
+        "pay": {
+          "x": 193.5,
+          "y": 258.640625,
+          "bottom": 321.625
+        },
+        "rows": [
+          395.421875,
+          395.421875,
+          395.421875
+        ],
+        "cardHeights": [
+          264.96875,
+          264.96875,
+          264.96875
+        ],
+        "secondBottom": 783.578125,
+        "viewport": 900
+      }
+    },
+    {
+      "check": "手机餐品明细与分账规则字号至少 14px",
+      "passed": true,
+      "detail": [
+        {
+          "text": "板烧鸡腿堡¥23.50",
+          "size": 14
+        },
+        {
+          "text": "巨无霸¥25.50",
+          "size": 14
+        },
+        {
+          "text": "麦香鱼¥22.50",
+          "size": 14
+        },
+        {
+          "text": "餐品按归属或分享权重分摊，共享餐品的份额由成员约定。",
+          "size": 14
+        },
+        {
+          "text": "整单优惠按各人餐品金额比例分摊；已经计入餐品小计的优惠不会重复扣减。",
+          "size": 14
+        },
+        {
+          "text": "附加费用在所有列出的成员间均摊。",
+          "size": 14
+        },
+        {
+          "text": "金额全程按整数分计算。分不足一分钱时采用最大余数法，余数相同按成员 ID 顺序补齐。",
+          "size": 14
+        }
+      ]
+    },
+    {
+      "check": "手机横屏内容和主操作完整可用",
+      "passed": true
+    },
+    {
+      "check": "真实核价金额与餐品数量保留",
+      "passed": true,
+      "detail": {
+        "amount": "¥71.50",
+        "people": [
+          "¥23.50",
+          "¥25.50",
+          "¥22.50"
+        ],
+        "cards": 3
+      }
+    },
+    {
+      "check": "键盘 Enter 可展开餐品明细",
+      "passed": true
+    },
+    {
+      "check": "Remotion 明细箭头对应真实展开状态",
+      "passed": true
+    },
+    {
+      "check": "Tab 导航有清晰可见焦点",
+      "passed": true
+    },
+    {
+      "check": "主按钮跳到分账清单并移动键盘焦点",
+      "passed": true
+    },
+    {
+      "check": "真实浏览器复制成功且内容金额一致",
+      "passed": true
+    },
+    {
+      "check": "复制期间禁用重复操作并有 busy 状态",
+      "passed": true
+    },
+    {
+      "check": "复制实际忙碌状态使用系统 progress 光标",
+      "passed": true
+    },
+    {
+      "check": "复制完成后恢复按钮状态",
+      "passed": true
+    },
+    {
+      "check": "复制成功后焦点返回触发按钮",
+      "passed": true
+    },
+    {
+      "check": "剪贴板被拒绝时提供可选中手动复制清单",
+      "passed": true,
+      "detail": {
+        "visible": true,
+        "focused": true,
+        "selected": true,
+        "text": true
+      }
+    },
+    {
+      "check": "收起手动复制后焦点返回复制按钮",
+      "passed": true
+    },
+    {
+      "check": "打印前展开全部明细，结束后还原展开与按钮状态",
+      "passed": true
+    },
+    {
+      "check": "打印返回后恢复触发按钮焦点",
+      "passed": true
+    },
+    {
+      "check": "打印失败提示可操作且按钮恢复",
+      "passed": true
+    },
+    {
+      "check": "减少动态效果模式关闭动画与平滑滚动",
+      "passed": true
+    },
+    {
+      "check": "触屏模式不启用自定义鼠标",
+      "passed": true
+    },
+    {
+      "check": "精细指针的默认与点击光标均为一体式品牌 SVG、热点 (2,2)，输入保留文本光标",
+      "passed": true,
+      "detail": {
+        "defaultSvg": true,
+        "clickSvg": true,
+        "defaultHotspot": " 2 2, auto",
+        "clickHotspot": " 2 2, pointer",
+        "different": true,
+        "text": "text"
+      }
+    },
+    {
+      "check": "所有链接、按钮及三类展开入口统一使用同一金色可点击 SVG，排除禁用与忙碌状态",
+      "passed": true,
+      "detail": {
+        "count": 16,
+        "summaryKinds": [
+          {
+            "selector": ".person-details summary",
+            "count": 3,
+            "allGold": true
+          },
+          {
+            "selector": ".summary-breakdown summary",
+            "count": 1,
+            "allGold": true
+          },
+          {
+            "selector": ".rules-card summary",
+            "count": 1,
+            "allGold": true
+          }
+        ],
+        "mismatches": []
+      }
+    },
+    {
+      "check": "禁用按钮保留系统 not-allowed 状态",
+      "passed": true
+    },
+    {
+      "check": "强制颜色模式恢复系统默认、点击和文本光标",
+      "passed": true
+    },
+    {
+      "check": "无 cursor:none、隐藏系统鼠标或跟随 DOM 层",
+      "passed": true,
+      "detail": {
+        "hidden": [],
+        "followers": [],
+        "hasCursorNone": false
+      }
+    },
+    {
+      "check": "桌面餐品明细与分账规则字号至少 14px",
+      "passed": true,
+      "detail": [
+        {
+          "text": "板烧鸡腿堡¥23.50",
+          "size": 14
+        },
+        {
+          "text": "巨无霸¥25.50",
+          "size": 14
+        },
+        {
+          "text": "麦香鱼¥22.50",
+          "size": 14
+        },
+        {
+          "text": "餐品按归属或分享权重分摊，共享餐品的份额由成员约定。",
+          "size": 14
+        },
+        {
+          "text": "整单优惠按各人餐品金额比例分摊；已经计入餐品小计的优惠不会重复扣减。",
+          "size": 14
+        },
+        {
+          "text": "附加费用在所有列出的成员间均摊。",
+          "size": 14
+        },
+        {
+          "text": "金额全程按整数分计算。分不足一分钱时采用最大余数法，余数相同按成员 ID 顺序补齐。",
+          "size": 14
+        }
+      ]
+    },
+    {
+      "check": "餐品图片原生懒加载、滚入后可读且不改变页面高度",
+      "passed": true
+    },
+    {
+      "check": "可见文字对比度符合 WCAG AA",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "超预算及未知预算使用文字说明，不只依赖颜色",
+      "passed": true
+    },
+    {
+      "check": "20人、长昵称及大金额不溢出 320",
+      "passed": true
+    },
+    {
+      "check": "20人、长昵称及大金额不溢出 1024",
+      "passed": true
+    },
+    {
+      "check": "20人、长昵称及大金额不溢出 1440",
+      "passed": true
+    },
+    {
+      "check": "用户内容同时在 HTML 与复制数据中安全转义",
+      "passed": true
+    },
+    {
+      "check": "打印版保留完整明细并隐藏图片及操作区",
+      "passed": true
+    },
+    {
+      "check": "禁用 JavaScript 仍能阅读完整账单，并隐藏依赖脚本的操作",
+      "passed": true
+    },
+    {
+      "check": "无页面运行时异常",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "账单无外部图片、字体或脚本请求",
+      "passed": true
+    }
+  ]
+}

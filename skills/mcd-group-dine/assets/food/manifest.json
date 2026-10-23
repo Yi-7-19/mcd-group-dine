@@ -1,0 +1,50 @@
+[
+  {
+    "key": "hero",
+    "file": "hero.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 125496,
+    "sha256": "de67489972e73c9408ae5574414aeaa5d96295cf93e9d8b4ef84bf1c2a593b2b",
+    "generatedOriginalSize": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "key": "chicken",
+    "file": "chicken.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 60762,
+    "sha256": "f1259b8d82dbfd071f2e11a28057eebacfc77723b88bcb1e827001f4475c3524",
+    "generatedOriginalSize": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "key": "double-beef",
+    "file": "double-beef.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 62526,
+    "sha256": "026bad3ea0d0e9ede264fdf034571d6ba8631c54646a88f5158a0ae1bb38656c",
+    "generatedOriginalSize": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "key": "fish",
+    "file": "fish.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 43252,
+    "sha256": "d8d0ba5e60c0ac807ac03f0a89a97802a5b11bd7fc00641194797d91f78e0df0",
+    "generatedOriginalSize": [
+      1254,
+      1254
+    ]
+  }
+]

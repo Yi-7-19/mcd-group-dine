@@ -1,0 +1,22 @@
+{
+  "name": "mcd-group-dine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "麦麦同桌：麦当劳 MCP 多人拼单与精确分账 Skill",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "demo": "node src/cli.mjs examples/demo.json --out examples/demo-report.html",
+    "check": "node scripts/check-release.mjs",
+    "build:motion": "node scripts/build-motion.mjs",
+    "build:reports": "node src/cli.mjs examples/demo.json --out examples/demo-report.html && node src/cli.mjs examples/live-quote.json --out examples/live-report.html"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "0.25.12",
+    "remotion": "4.0.534"
+  }
+}
